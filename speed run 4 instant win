@@ -1,0 +1,11 @@
+while task.wait () do
+local args = {
+    [1] = 92.73799538612366,
+    [2] = "Level 2"
+    [3] = "Normal",
+    [4] = false
+}
+
+game:GetService("ReplicatedStorage").BeatLevel:FireServer(unpack(args))
+
+end
